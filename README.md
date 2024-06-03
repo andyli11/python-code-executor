@@ -6,6 +6,10 @@ https://github.com/andyli11/python-code-executor/assets/65037987/d31e867a-2c9a-4
 ## How to Run
 1. Clone the repository.
 2. Navigate to the project directory.
-3. Run `docker-compose up --build`.
+3. `cd frontend`
+4. `npm install`
+5. `npm run build`
+6. `cd ..`
+7. Run `docker-compose up --build`.
 
 The frontend will be available at `http://localhost:3000` and the backend at `http://localhost:8000`.
