@@ -10,11 +10,11 @@ COPY package.json package-lock.json ./
 # Install the dependencies
 RUN npm install
 
+RUN npm install --save-dev typescript@latest
+RUN npm install monaco-editor@0.30.1 @monaco-editor/react@4.6.0
+
 # Copy the rest of the application code
 COPY . .
-
-# RUN npm install --save-dev typescript@latest
-RUN npm install monaco-editor@0.30.1 @monaco-editor/react@4.6.0
 
 # Build the Next.js application
 RUN npm run build
@@ -23,4 +23,4 @@ RUN npm run build
 EXPOSE 3000
 
 # Start the Next.js application
-CMD ["npm", "start"]
+CMD ["npm", "run", "dev"]
