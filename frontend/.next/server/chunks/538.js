@@ -1,0 +1,1 @@
+"use strict";exports.id=538,exports.ids=[538],exports.modules={538:(e,t,s)=>{s.r(t),s.d(t,{default:()=>n});var a=s(997),u=s(689),o=s(587),d=s.n(o);let n=({code:e,setCode:t})=>((0,u.useEffect)(()=>{},[e]),a.jsx(d(),{height:"60vh",defaultLanguage:"python",value:e,onChange:e=>t(e||""),theme:"vs-dark",onMount:t=>{t.setValue(e)}}))}};

@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST='{"pages/index.tsx -> ../components/CodeEditor":{"id":992,"files":["static/chunks/992.bc3a51734a23936a.js"]},"pages/index.tsx -> ../components/CodeResult":{"id":6691,"files":["static/chunks/691.e58f9e2f5e282027.js"]}}';
