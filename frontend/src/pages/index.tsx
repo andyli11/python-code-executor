@@ -13,12 +13,8 @@ const Home = () => {
         try {
             const response = await axios.post('/api/test_code', { code });
             setResult(response.data);
-        } catch (error) {
-            if (error instanceof Error) {
-                setResult({ output: '', error: error.message });
-            } else {
-                setResult({ output: '', error: 'An unknown error occurred' });
-            }
+        } catch (error: any) {
+            setResult({ output: '', error: error.message });
         }
     };
 
@@ -26,12 +22,8 @@ const Home = () => {
         try {
             const response = await axios.post('/api/submit_code', { code });
             setResult({ output: response.data.output, error: '' });
-        } catch (error) {
-            if (error instanceof Error) {
-                setResult({ output: '', error: error.message });
-            } else {
-                setResult({ output: '', error: 'An unknown error occurred' });
-            }
+        } catch (error: any) {
+            setResult({ output: '', error: error.message });
         }
     };
 
