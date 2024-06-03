@@ -1,8 +1,7 @@
 # Python Code Executor
 
-## Prerequisites
-- Docker
-- Docker Compose
+## Demo
+https://github.com/andyli11/python-code-executor/assets/65037987/c2b0741c-b512-4818-a175-6f9af1c9ef94
 
 ## How to Run
 1. Clone the repository.
